@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+input:focus, button:focus {
+    outline-width: 0;
+}
+a {
+    text-decoration: none;
+    color: #333 !important;
+}
+
+a:hover {
+    color: #ff8509 !important;
+}
+h1, h2, h3, h4, p {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+.hero-image-container {
+    height: 50vh;
+    background: #FFE0FE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    text-align: center;
+}
+
+.hero-image h1 {
+    font-size: 120px;
+}
+
+.hero-image p {
+    font-size: 25px;
+}
+
+.page-title {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 0;
+}
+
+main {
+    width: 80%;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+.category-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    overflow: hidden;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.search-bar {
+    color: #1B0076;
+    border: 1px solid #1B0076;
+    border-radius: 30px;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+.search-bar::placeholder {
+    font-size: 10px;
+}
+.search-bar:focus {
+    outline-width: 0;
+}
+.category-card h4 {
+    padding-top: 10px;;
+    font-size: 30px;
+}
+
+.img-container {
+    width: 100%;
+    overflow: hidden;
+    height: 210px;
+    text-align: center;
+    
+}
+.img-container img {
+    width: 250px;
+    box-shadow: 0px 0px 3px #333;
+    height: 230px;
+    background-size: cover;
+}
+
+.main-btn {
+    padding: 10px 15px;
+    background: #1B0076;
+    color: #f2f2f2;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+}
+
+.account-panel {
+    display: flex;
+    justify-content: flex-end;
+    background: #ffe0fe;
+    padding-right: 40px;
+    font-weight: 700;
+    color: #333;
+    text-decoration: none;
+}
+
+.navbar {
+ background: #fff !important;
+}
