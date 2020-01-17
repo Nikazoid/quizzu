@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./styles/index.css">
-    <link rel="stylesheet" href="./styles/quizzes.css">
+    <link rel="stylesheet" href="./styles/quizzpage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -35,40 +35,53 @@
         <div class="account-panel">
             <span><a href="./account-panel.html"><i class="fas fa-user"></i>Joanna</a></span>
         </div>
-
+        <div class="header-container">
+            <h1 class="card-header-quizz">If You Can't ID 7/10 Of These Landmarks, Then You Dont Know Jack About Geography</h1>
+        </div>
+        <div class="time-remaining-container">
+            <span class="time-text">Time Reamining: </span><span class="time-numbers"> 00:45:30</span>
+        </div>
         <main>
-            <div class="header-container">
-                <img src="./styles/images/cube.png" alt=""><h1 class="card-header-quizz">Highest rated quizzes</h1><img src="./styles/images/cube.png" alt="">
-            </div>
-            <p class="card-description-quizz">Challenge yourself to some of our most popular quizzes!</p>
-            <section class="card-quizz">
-                <div class="card-quizz-left">
-                    <h3>Brain Games</h3>
-                    <p>Click the category into wihich the first two terms fit but the third does not</p>
-                    <a href="./quizzpage.html" class="main-btn">Play Quizz</a>
-                </div>
-                <div class="card-quizz-right">
-                    <img src="./styles/images/rubikcube-quizz-image.png" alt="">
-                </div>
-            </section>
-            <section class="card-quizz">
-                <div class="card-quizz-left">
-                    <h3>Cinema</h3>
-                    <p>Can you chose one that is not part of each trilogy ?</p>
-                    <a href="./quizzpage.html" class="main-btn">Re-Play Quizz</a>
-                </div>
-                <div class="card-quizz-right">
-                    <img src="./styles/images/film-quizz-image.png" alt="">
+            <section class="question-container">
+                <div class="question-description-container">
+                    <div class="img-container-quizz">
+                        <div class="question-header"><h3>1. What's this famous landmark called</h3></div>
+                        <img src="./styles/images/eiffel-tower.png" alt="">
+                    </div>
+                    <div class="answers-container">
+                        <span>Eiffel tower</span>
+                        <span>Tower of London</span>
+                        <span>Paris Spire</span>
+                        <span>Space Needle</span>
+                    </div>
                 </div>
             </section>
-            <section class="card-quizz">
-                <div class="card-quizz-left">
-                    <h3>Geography</h3>
-                    <p>Can you eliminate one US state as the weakest link for each round and reveal the winner ?</p>
-                    <a href="./quizzpage.html"  class="main-btn">Play Quizz</a>
+            <section class="question-container">
+                <div class="question-description-container">
+                    <div class="answers-container">
+                        <span>The great wall of china, china</span>
+                        <span>the great barricade, japan</span>
+                        <span>The retaining wall, singapore</span>
+                        <span>the great wall of asia, china</span>
+                    </div>
+                    <div class="img-container-quizz">
+                        <div class="question-header"><h3>2. What's this and where is it located</h3></div>
+                        <img src="./styles/images/china.png" alt="">
+                    </div>
                 </div>
-                <div class="card-quizz-right">
-                    <img src="./styles/images/amurica-quizz-image.png" alt="">
+            </section>
+            <section class="question-container">
+                <div class="question-description-container">
+                    <div class="img-container-quizz">
+                        <div class="question-header"><h3>3. What is this structure</h3></div>
+                        <img src="./styles/images/indian.png" alt="">
+                    </div>
+                    <div class="answers-container">
+                        <span>Taj Mahal</span>
+                        <span>Burj Khalifa</span>
+                        <span>Humayn's Tomb</span>
+                        <span>Jama masjid</span>
+                    </div>
                 </div>
             </section>
         </main>

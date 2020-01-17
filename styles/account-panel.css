@@ -1,0 +1,115 @@
+.account-panel {
+    background: unset;
+    align-items: center;
+}
+
+.account-panel .name {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    margin: 0;
+    margin-right: 5px;
+}
+
+.account-panel-container {
+    width: 90%;
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.account-panel-left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-picture-container {
+    width: 100%;
+    background: #FEE0FD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 170px;
+    justify-content: center;
+}
+
+.name {
+    width: 100px;
+    height: 100px;
+    background: #522BA4;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.menu span {
+    width: 100%;
+    padding: 5px 0px;
+    padding-left: 20px;
+    background: #FEE0FD;
+    cursor: pointer;
+}
+
+.menu span:hover {
+    background: #fff;
+    color: #999;
+}
+
+.account-panel-right {
+    width: 60%;
+    background: #fee0fd;
+    padding: 25px 30px;
+}
+
+.account-panel-right h3 {
+    font-size: 40px;
+}
+
+.account-form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.input-box {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-box input {
+    background: #FFF6FF;
+    padding: 5px 10px;
+    color: #6c6c6c;
+    border: 1px solid #3333334d;
+}
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn-container .main-btn {
+    width: 225px;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 20px;
+}

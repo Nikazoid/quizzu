@@ -15,7 +15,7 @@
         <nav class="navbar navbar-expand-sm bg-white justify-content-center">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="./index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./quizzes.html">Quizzes</a>
@@ -24,15 +24,15 @@
                     <a class="nav-link" href="#">Ranking Charts</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#contactUsAnchor">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="#contactUsAnchor">Contact Us</a>
                 </li>
             </ul>
         </nav>
         <div class="account-panel">
-            <span><i class="fas fa-user"></i>Joanna</a></span>
+            <div class="name">J</div><span><a href="./account-panel.html"> Joanna ▼</a></span>
         </div>
         <div class="hero-image-container">
             <div class="hero-image">
@@ -41,38 +41,66 @@
                 <input class="search-bar"type="text" placeholder="Search all categories">
             </div>
         </div>
-        <main>
-            <h3 class="page-title">POPULAR CATEGORIES THIS WEEK</h3>
-            <div class="cards-container">
-                <section class="category-card">
-                    <div class="img-container">
-                        <img src="./styles/images/card-geography.jpg" alt="card-geography">
-                    </div>
-                    <h4>Geography</h4>
-                </section>
-                <section class="category-card">
-                    <div class="img-container">
-                        <img src="./styles/images/card-sports.jpg" alt="card-sports">
-                    </div>
-                    <h4>Sports</h4>
-                </section>
-                <section class="category-card">
-                    <div class="img-container">
-                        <img src="./styles/images/card-music.jpg" alt="card-music">
-                    </div>
-                    <h4>Music</h4>
-                </section>
-                <section class="category-card">
-                    <div class="img-container">
-                        <img src="./styles/images/card-literature.jpg" alt="card-literature">
-                    </div>
-                    <h4>Literature</h4>
-                </section>          
-            </div>
-            <button class="main-btn">Check for more</button>
-        </main>
     </header>
-
+    <main>
+        <h3 class="page-title">POPULAR CATEGORIES THIS WEEK</h3>
+        <div class="cards-container">
+            <section class="category-card">
+                <div class="img-container">
+                    <img src="./styles/images/card-geography.jpg" alt="card-geography">
+                </div>
+                <h4>Geography</h4>
+            </section>
+            <section class="category-card">
+                <div class="img-container">
+                    <img src="./styles/images/card-sports.jpg" alt="card-sports">
+                </div>
+                <h4>Sports</h4>
+            </section>
+            <section class="category-card">
+                <div class="img-container">
+                    <img src="./styles/images/card-music.jpg" alt="card-music">
+                </div>
+                <h4>Music</h4>
+            </section>
+            <section class="category-card">
+                <div class="img-container">
+                    <img src="./styles/images/card-literature.jpg" alt="card-literature">
+                </div>
+                <h4>Literature</h4>
+            </section>          
+        </div>
+        <button class="main-btn">Check for more</button>
+    </main>
+    <footer>
+        <div class="footer-top">
+            <div class="contact-info-container">
+                <h3 id="contactUsAnchor">CONTACT US</h3>
+                <div class="info">
+                    <span>support@quizzu.com</span>
+                    <span>Tel: 123-456-7890</span>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="./styles/images/BENCH.png" alt="">
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="map-container">
+                <h4>You can find us at the fallowing address</h4>
+                <div class="map">
+                    <img src="./styles/images/map.png" alt="">
+                </div>
+            </div>
+            <div class="form-container">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Subject">
+                <textarea name="" id="" cols="30" rows="4" placeholder="Message"></textarea>
+                <a href="#" class="form-btn">Submit</a>
+            </div>
+        </div>
+    </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
