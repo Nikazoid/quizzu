@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/quizzes.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -32,48 +33,46 @@
             </ul>
         </nav>
         <div class="account-panel">
-            <span><i class="fas fa-user"></i>Joanna</a></span>
+            <span><a href="#"><i class="fas fa-user"></i>Joanna</a></span>
         </div>
-        <div class="hero-image-container">
-            <div class="hero-image">
-                <h1>QUIZZU</h1>
-                <p>The Quizz Kingdom</p>
-                <input class="search-bar"type="text" placeholder="Search all categories">
-            </div>
-        </div>
+
         <main>
-            <h3 class="page-title">POPULAR CATEGORIES THIS WEEK</h3>
-            <div class="cards-container">
-                <section class="category-card">
-                    <div class="img-container">
-                        <img src="./styles/images/card-geography.jpg" alt="card-geography">
-                    </div>
-                    <h4>Geography</h4>
-                </section>
-                <section class="category-card">
-                    <div class="img-container">
-                        <img src="./styles/images/card-sports.jpg" alt="card-sports">
-                    </div>
-                    <h4>Sports</h4>
-                </section>
-                <section class="category-card">
-                    <div class="img-container">
-                        <img src="./styles/images/card-music.jpg" alt="card-music">
-                    </div>
-                    <h4>Music</h4>
-                </section>
-                <section class="category-card">
-                    <div class="img-container">
-                        <img src="./styles/images/card-literature.jpg" alt="card-literature">
-                    </div>
-                    <h4>Literature</h4>
-                </section>          
+            <div class="header-container">
+                <img src="./styles/images/cube.png" alt=""><h1 class="card-header-quizz">Highest rated quizzes</h1><img src="./styles/images/cube.png" alt="">
             </div>
-            <button class="main-btn">Check for more</button>
+            <p class="card-description-quizz">Challenge yourself to some of our most popular quizzes!</p>
+            <section class="card-quizz">
+                <div class="card-quizz-left">
+                    <h3>Brain Games</h3>
+                    <p>Click the category into wihich the first two terms fit but the third does not</p>
+                    <button class="main-btn">Play Quizz</button>
+                </div>
+                <div class="card-quizz-right">
+                    <img src="./styles/images/rubikcube-quizz-image.png" alt="">
+                </div>
+            </section>
+            <section class="card-quizz">
+                <div class="card-quizz-left">
+                    <h3>Cinema</h3>
+                    <p>Can you chose one that is not part of each trilogy ?</p>
+                    <button class="main-btn">Re-Play Quizz</button>
+                </div>
+                <div class="card-quizz-right">
+                    <img src="./styles/images/film-quizz-image.png" alt="">
+                </div>
+            </section>
+            <section class="card-quizz">
+                <div class="card-quizz-left">
+                    <h3>Geography</h3>
+                    <p>Can you eliminate one US state as the weakest link for each round and reveal the winner ?</p>
+                    <button class="main-btn">Play Quizz</button>
+                </div>
+                <div class="card-quizz-right">
+                    <img src="./styles/images/amurica-quizz-image.png" alt="">
+                </div>
+            </section>
         </main>
     </header>
-
-
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
